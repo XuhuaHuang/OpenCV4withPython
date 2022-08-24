@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Visual Studio Code files
+**/*.code-workspace
+
 # C extensions
 *.so
 
