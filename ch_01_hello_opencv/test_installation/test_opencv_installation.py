@@ -1,5 +1,8 @@
 """
 Testing OpenCV installation
+Xuhua Huang
+Aug 23, 2022
+Execute the following in the terminal:
 $ cd ./ch_01_hello_opencv/test_installation
 $ python test_opencv_installation.py
 """
@@ -24,6 +27,8 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Show original image:
 cv2.namedWindow("OpenCV logo", cv2.WINDOW_KEEPRATIO)
 cv2.imshow("OpenCV logo", image)
+# Use the resizeWindow() to optimize the display.
+# The first argument is the name of the named window.
 cv2.resizeWindow("OpenCV logo", 200, 200)
 
 # Show grayscale image:
