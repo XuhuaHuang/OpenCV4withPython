@@ -1,10 +1,12 @@
 {
     "cSpell.words": [
+        "grayscale",
         "imread",
         "imshow",
         "KEEPRATIO",
         "matplotlib",
         "numpy",
-        "opencv"
+        "opencv",
+        "pytest"
     ]
 }
