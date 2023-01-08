@@ -1,7 +1,9 @@
 # Overview
+
 The `README.md` is used to register the main properties of the project.  
 
 It should cover the following:
+
 * What the project does
 * How to install it/get started
 * Example usage
